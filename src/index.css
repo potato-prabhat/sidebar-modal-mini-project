@@ -257,3 +257,21 @@ ul {
 Project CSS
 ===============
 */
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--grey-100);
+}
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  left: 3rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: var(--primary-500);
+  transition: var(--transition);
+  cursor: pointer;
+}
